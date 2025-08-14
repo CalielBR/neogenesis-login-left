@@ -1,7 +1,7 @@
 {
-  "id": "neogenesis-login-ui",
+  "id": "neogenesis-login-left",
   "title": "NeoPip-Boy Login - LEFT",
-  "description": "Custom login screen styled as Fallout Pip-Boy for Neogenesis RPG worlds.",
+  "description": "Custom login screen styled as Fallout Pip-Boy for Neogenesis RPG worlds. Minimalist login box on the left with hover effects and a unicorn icon.",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "10",
@@ -22,5 +22,9 @@
     {
       "name": "Mike CalielFR Barbosa"
     }
-  ]
+  ],
+  "url": "https://github.com/CalielBR/neogenesis-login-left",
+  "manifest": "https://raw.githubusercontent.com/CalielBR/neogenesis-login-left/main/module.json",
+  "download": "https://github.com/CalielBR/neogenesis-login-left/archive/refs/tags/v1.0.0.zip",
+  "license": "MIT"
 }
