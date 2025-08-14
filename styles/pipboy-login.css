@@ -1,0 +1,162 @@
+/* ----------------------------------------- */
+/* --- Neogenesis Login Screen UI v2 -------- */
+/* --- Fallout Pip-Boy Inspired Aesthetic --- */
+/* --- Optimized for Foundry VTT v11 to v13 -- */
+/* --- Developed and maintained by Mike CalielFR#7504 Barbosa --- */
+/* ----------------------------------------- */
+
+/* Configurações base */
+body.auth,
+#watermark {
+    --login-world-logo: url(Place the image path);
+    --login-footer-logo: url(Place the image path);
+    --login-footer-logo-height: 25px;
+
+    /* Cores Pip-Boy */
+    --login-button-color: #00ff00;
+    --login-button-color-hover: #66ff66;
+
+    --login-show-text-title: none;
+
+    background-color: #021a01 !important;
+    font-family: "Courier New", Courier, monospace;
+    color: #00ff00;
+}
+
+/* Logotipo do Mundo */
+body.auth #main-header {
+    background: var(--login-world-logo);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 120px !important;
+    border: none;
+    box-shadow: none;
+    color: #00ff00;
+}
+
+/* Ocultar descrição do mundo e informações da sessão */
+#join-game-world,
+#join-game-details {
+    display: none;
+}
+
+/* Remover a segunda coluna no formulário de entrada */
+body.join #join-game {
+    grid-template-columns: 1fr !important;
+}
+
+/* Visibilidade do título do mundo */
+body.auth #main-header h1 {
+    display: block;
+    flex: auto;
+    margin: 0;
+    font-size: var(--header-font-size);
+    text-align: center;
+    filter: drop-shadow(0 0 4px black);
+}
+
+/* Ocultar divisores do formulário */
+#join-game .divider {
+    display: none;
+}
+
+/* Alinhar o formulário de login à esquerda e ajustar o posicionamento vertical */
+#join-game {
+    width: 400px !important;
+    position: absolute;
+    top: 70%;
+    left: 20px;
+    transform: translateY(-50%);
+
+    background: rgba(0, 64, 0, 0.85);
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+    padding: 20px 25px;
+    box-shadow:
+        0 0 12px #00ff00,
+        inset 0 0 25px #00ff00;
+}
+
+/* Estilizar entradas e seletores */
+#join-game input,
+#join-game select,
+#join-game button {
+    min-height: 40px;
+    padding: 10px !important;
+    border: 2px solid #00ff00 !important;
+    background-color: #002800;
+    font-size: 15px;
+    color: #00ff00;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: inset 0 0 8px #00ff00;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Focus inputs e selects */
+#join-game input:focus,
+#join-game select:focus {
+    outline: none;
+    background-color: #004400;
+    box-shadow:
+        0 0 12px #66ff66,
+        inset 0 0 12px #00ff00;
+    color: #ccffcc;
+}
+
+/* Estilizar botões */
+#join-game button {
+    background: var(--login-button-color);
+    border: none;
+    color: #002200;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow:
+        0 0 10px #00ff00,
+        inset 0 0 12px #66ff66;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+    border-radius: 6px;
+    margin-bottom: 0px !important;
+}
+
+/* Evita quebra de linha e define largura mínima para o botão */
+#join-game button[name="join"] {
+    white-space: nowrap !important;
+    min-width: 80px;
+    overflow: visible !important;
+}
+
+/* Remove texto, deixa só a imagem do unicórnio */
+#join-game button[name="join"]:after {
+    content: "🦄";
+    font-size: 1.5em;
+    padding-left: 8px;
+    vertical-align: middle;
+    white-space: nowrap !important;
+}
+
+/* Hover com rosa Fallout e texto claro elegante */
+#join-game button:hover {
+    background: #c71585;
+    /* MediumVioletRed */
+    color: #f8f4ff;
+    /* Off-white lavanda claro */
+    box-shadow:
+        0 0 20px #d96dd1,
+        inset 0 0 15px #f7a8f7;
+}
+
+/* Alterar ícone do botão de login */
+#join-game button[name="join"] i.fas.fa-check {
+    display: none;
+}
+
+/* Adicionar padding ao ícone do botão de retorno ao setup */
+#join-game-setup .form-footer .fas.fa-lock {
+    padding-right: 5px;
+}

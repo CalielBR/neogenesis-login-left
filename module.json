@@ -1,0 +1,26 @@
+{
+  "id": "neogenesis-login-ui",
+  "title": "NeoPip-Boy Login - LEFT",
+  "description": "Custom login screen styled as Fallout Pip-Boy for Neogenesis RPG worlds.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "13"
+  },
+  "coreTranslation": true,
+  "languages": [
+    {
+      "lang": "la",
+      "name": "Latim",
+      "path": "lang/la.json"
+    }
+  ],
+  "styles": [
+    "styles/pipboy-login.css"
+  ],
+  "authors": [
+    {
+      "name": "Mike CalielFR Barbosa"
+    }
+  ]
+}
