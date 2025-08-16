@@ -16,13 +16,13 @@ Custom Fallout-style login screen for Foundry VTT
 ## Description / Descrição / Description
 
 ### English
-Minimalist, Fallout-inspired login screen for Foundry VTT. Moves the **username/password box** to the left side and includes **hover effects** and a **unicorn icon** for a unique touch.
+Minimalist, Fallout-inspired login screen for Foundry VTT, **styled like a Pip-Boy interface**. Moves the **username/password box** to the left side and includes **hover effects** and a **unicorn icon** for a unique touch.
 
 ### Português
-Tela de login minimalista, estilo Fallout, para Foundry VTT. Move a **caixa de login/senha** para o lado esquerdo e inclui **efeito hover** e um **ícone de unicórnio** para um toque único.
+Tela de login minimalista, estilo Fallout, **com visual inspirado no Pip-Boy** para Foundry VTT. Move a **caixa de login/senha** para o lado esquerdo e inclui **efeito hover** e um **ícone de unicórnio** para um toque único.
 
 ### Français
-Écran de connexion minimaliste, style Fallout, pour Foundry VTT. Déplace la **boîte identifiant/mot de passe** sur la gauche avec **effets hover** et une **icône de licorne** pour une touche unique.
+Écran de connexion minimaliste, style Fallout, **inspiré de l’interface Pip-Boy** pour Foundry VTT. Déplace la **boîte identifiant/mot de passe** sur la gauche avec **effets hover** et une **icône de licorne** pour une touche unique.
 
 ---
 
@@ -61,4 +61,4 @@ Foundry n’applique les styles du module sur l’écran de connexion que si le 
 
 ## About / Sobre / À propos
 Created by **Mike "CalielFR" Barbosa** – Neogenesis RPG  
-Styled for **Foundry VTT v11 or later**
+Styled for **Foundry VTT v11 or later**, with **Pip-Boy inspired visuals**
