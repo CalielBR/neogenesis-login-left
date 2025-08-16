@@ -1,140 +1,64 @@
-# 🎨 NeoPip-Boy Login - LEFT  
-Custom Fallout-style login screen for Foundry VTT  
+# NeoPip-Boy Login - LEFT
+Custom Fallout-style login screen for Foundry VTT
 
+---
+
+## Preview
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CalielBR/neogenesis-login-left/main/assets/Screenshot_Login_Left.gif" alt="Preview do Login" width="600">
+  <img src="https://raw.githubusercontent.com/CalielBR/neogenesis-login-left/main/assets/Screenshot_Login_Left.gif" alt="Login Preview" width="600">
 </p>
-<br>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CalielBR/neogenesis-login-left/main/assets/Screenshot_setup.gif" alt="Preview do Login" width="600">
+  <img src="https://raw.githubusercontent.com/CalielBR/neogenesis-login-left/main/assets/Screenshot_setup.gif" alt="Setup Preview" width="600">
 </p>
 
 ---
 
-## 📝 Descrição / Description / Description
+## Description / Descrição / Description
 
-### 🇧🇷 Português  
-Este módulo personaliza a tela de login do Foundry VTT, movendo a caixa de **login e senha** para o lado esquerdo em um **estilo minimalista**.  
-Inclui **efeito hover** nos botões e um **ícone de unicórnio** para dar um toque divertido e único à interface.  
+### English
+Minimalist, Fallout-inspired login screen for Foundry VTT. Moves the **username/password box** to the left side and includes **hover effects** and a **unicorn icon** for a unique touch.
 
-### 🇺🇸 English  
-This module customizes the Foundry VTT login screen, moving the **username and password** box to the left side in a **minimalist style**.  
-It includes **hover effects** on buttons and a **unicorn icon** for a fun and unique touch to the interface.  
+### Português
+Tela de login minimalista, estilo Fallout, para Foundry VTT. Move a **caixa de login/senha** para o lado esquerdo e inclui **efeito hover** e um **ícone de unicórnio** para um toque único.
 
-### 🇫🇷 Français  
-Ce module personnalise l’écran de connexion de Foundry VTT, en déplaçant la boîte **identifiant et mot de passe** sur le côté gauche dans un **style minimaliste**.  
-Il inclut un **effet hover** sur les boutons et une **icône de licorne** pour apporter une touche amusante et unique à l’interface.  
+### Français
+Écran de connexion minimaliste, style Fallout, pour Foundry VTT. Déplace la **boîte identifiant/mot de passe** sur la gauche avec **effets hover** et une **icône de licorne** pour une touche unique.
 
 ---
 
-## 🇧🇷 Português
+## Installation / Instalação / Installation
 
-### Instalação
+**Important / Importante / Important :** Ensure the folder name **matches exactly** the module ID: `neogenesis-login-left`.
 
-**Importante:** Ao instalar manualmente, o nome da pasta deve **corresponder exatamente ao ID do módulo** (`neogenesis-login-left`) para que o Foundry o reconheça.
+### Using the Manifest / Usando o Manifesto / Avec le manifeste
+1. Copy the module manifest URL.
+2. In Foundry VTT: **Setup > Add-on Modules > Install Module**
+3. Paste the URL and click **Install**
+4. In Setup settings, change the language to **Latin - NeoPip-Boy Login - LEFT** and restart Foundry.
+5. No need to enable the module in your world.
 
-**Duas formas de instalar:**  
+### Manual Download / Download manual / Téléchargement manuel
+1. Download the `.zip` file.
+2. Extract into `Data/modules` ensuring the folder name is `neogenesis-login-left`.
+3. In Setup settings, change the language to **Latin - NeoPip-Boy Login - LEFT** and restart Foundry.
+4. No need to enable the module in your world.
 
-**1️⃣ Usando o Manifesto**  
-- Copie a URL do manifesto do módulo.  
-- No Foundry VTT:  
-  1. Vá em **Setup** > **Add-on Modules**.  
-  2. Clique em **Install Module**.  
-  3. Cole a URL no campo **Manifest URL**.  
-  4. Clique em **Install**.  
-  5. Na configuração do Foundry **Setup**, altere o idioma para **Latim - NeoPip-Boy Login - LEFT** e reinicie o Foundry.  
-  6. Não é necessário ativar o módulo no seu mundo!  
-
-**2️⃣ Download manual**  
-- Baixe o arquivo `.zip`.  
-- Depois:  
-  1. Extraia na pasta `Data/modules`.  
-  2. Certifique-se de que o nome da pasta **corresponde exatamente ao ID**: `neogenesis-login-left`.  
-  3. Na configuração do Foundry **Setup**, altere o idioma para **Latim - NeoPip-Boy Login - LEFT** e reinicie o Foundry.  
-  4. Não é necessário ativar o módulo no seu mundo!  
-
-💡 **Dica:** Usar o manifesto é recomendado para atualizações automáticas.
+> **Tip / Dica / Astuce :** Using the manifest is recommended for automatic updates.
 
 ---
 
-## 🇺🇸 English
-
-### Installation
-
-**Important:** When installing manually, the folder name must **match exactly** the module ID (`neogenesis-login-left`) for Foundry to recognize it.
-
-**Two ways to install:**  
-
-**1️⃣ Using the Manifest**  
-- Copy the module's manifest URL.  
-- In Foundry VTT:  
-  1. Go to **Setup** > **Add-on Modules**.  
-  2. Click **Install Module**.  
-  3. Paste the URL into the **Manifest URL** field.  
-  4. Click **Install**.  
-  5. In Foundry **Setup** settings, change the language to **Latin - NeoPip-Boy Login - LEFT** and restart Foundry.  
-  6. You do **not** need to enable the module in your world!  
-
-**2️⃣ Manual download**  
-- Download the `.zip` file.  
-- Then:  
-  1. Extract it into `Data/modules`.  
-  2. Make sure the folder name **matches exactly** the ID: `neogenesis-login-left`.  
-  3. In Foundry **Setup** settings, change the language to **Latin - NeoPip-Boy Login - LEFT** and restart Foundry.  
-  4. You do **not** need to enable the module in your world!  
-
-💡 **Tip:** Using the manifest is recommended for automatic updates.
-
----
-
-## 🇫🇷 Français
-
-### Installation
-
-**Important :** Lors d’une installation manuelle, le nom du dossier doit **correspondre exactement** à l’ID du module (`neogenesis-login-left`) pour que Foundry le reconnaisse.
-
-**Deux méthodes pour installer :**  
-
-**1️⃣ Avec le manifeste**  
-- Copiez l’URL du manifeste du module.  
-- Dans Foundry VTT :  
-  1. Allez dans **Setup** > **Add-on Modules**.  
-  2. Cliquez sur **Install Module**.  
-  3. Collez l’URL dans le champ **Manifest URL**.  
-  4. Cliquez sur **Install**.  
-  5. Dans la configuration **Setup** de Foundry, changez la langue en **Latin - NeoPip-Boy Login - LEFT** et redémarrez Foundry.  
-  6. Il n’est **pas** nécessaire d’activer le module dans votre monde !  
-
-**2️⃣ Téléchargement manuel**  
-- Téléchargez le fichier `.zip`.  
-- Ensuite :  
-  1. Extrayez-le dans `Data/modules`.  
-  2. Assurez-vous que le nom du dossier **correspond exactement** à l’ID : `neogenesis-login-left`.  
-  3. Dans la configuration **Setup** de Foundry, changez la langue en **Latin - NeoPip-Boy Login - LEFT** et redémarrez Foundry.  
-  4. Il n’est **pas** nécessaire d’activer le module dans votre monde !  
-
-💡 **Astuce :** Utiliser le manifeste est recommandé pour les mises à jour automatiques.
-
----
-
-## 🇧🇷 Português  
-### Por que preciso selecionar um idioma para este módulo?  
-Este módulo utiliza um truque minimalista de **"coreTranslation"** para carregar seu CSS personalizado na tela de login **antes** de entrar em qualquer mundo no Foundry VTT.  
-O Foundry só aplica os estilos do módulo na tela de login se o módulo for de idioma/tradução (ou se coreTranslation for verdadeiro com pelo menos uma língua declarada).  
-
-## 🇺🇸 English  
-### Why do I need to select a language for this module?  
+## Why select a language? / Por que selecionar um idioma? / Pourquoi sélectionner une langue ?
 This module uses a minimalist **"coreTranslation"** trick to load its custom CSS on the login screen **before** entering any world in Foundry VTT.  
-Foundry only applies the module’s styles to the login screen if the module is language/translation based (or if coreTranslation is true with at least one language declared).  
+Foundry only applies the module’s styles to the login screen if the module is language/translation based (or if coreTranslation is true with at least one language declared).
 
-## 🇫🇷 Français  
-### Pourquoi dois-je sélectionner une langue pour ce module ?  
+Este módulo utiliza um truque minimalista de **"coreTranslation"** para carregar seu CSS personalizado na tela de login **antes** de entrar em qualquer mundo no Foundry VTT.  
+O Foundry só aplica os estilos do módulo na tela de login se o módulo for de idioma/tradução (ou se coreTranslation for verdadeiro com pelo menos uma língua declarada).
+
 Ce module utilise une astuce minimaliste **"coreTranslation"** pour charger son CSS personnalisé sur l’écran de connexion **avant** d’entrer dans un monde Foundry VTT.  
 Foundry n’applique les styles du module sur l’écran de connexion que si le module est basé sur une langue/traduction (ou si coreTranslation est vrai avec au moins une langue déclarée).
 
 ---
 
-## About / À propos / Sobre
-
+## About / Sobre / À propos
 Created by **Mike "CalielFR" Barbosa** – Neogenesis RPG  
 Styled for **Foundry VTT v11 or later**
