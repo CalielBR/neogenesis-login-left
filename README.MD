@@ -4,6 +4,10 @@ Custom Fallout-style login screen for Foundry VTT
 <p align="center">
   <img src="https://raw.githubusercontent.com/CalielBR/neogenesis-login-left/main/assets/Screenshot_Login_Left.gif" alt="Preview do Login" width="600">
 </p>
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CalielBR/neogenesis-login-left/main/assets/Screenshot_setup.gif" alt="Preview do Login" width="600">
+</p>
 
 ---
 
