@@ -23,9 +23,9 @@ Il inclut un **effet hover** sur les boutons et une **icône de licorne** pour a
 
 ---
 
-### 🇧🇷 Português
+## 🇧🇷 Português
 
-## Instalação
+### Instalação
 
 **Importante:** Ao instalar manualmente, o nome da pasta deve **corresponder exatamente ao ID do módulo** (`neogenesis-login-left`) para que o Foundry o reconheça.
 
@@ -53,9 +53,9 @@ Il inclut un **effet hover** sur les boutons et une **icône de licorne** pour a
 
 ---
 
-### 🇺🇸 English
+## 🇺🇸 English
 
-## Installation
+### Installation
 
 **Important:** When installing manually, the folder name must **match exactly** the module ID (`neogenesis-login-left`) for Foundry to recognize it.
 
@@ -83,9 +83,9 @@ Il inclut un **effet hover** sur les boutons et une **icône de licorne** pour a
 
 ---
 
-### 🇫🇷 Français
+## 🇫🇷 Français
 
-## Installation
+### Installation
 
 **Important :** Lors d’une installation manuelle, le nom du dossier doit **correspondre exactement** à l’ID du module (`neogenesis-login-left`) pour que Foundry le reconnaisse.
 
@@ -110,6 +110,23 @@ Il inclut un **effet hover** sur les boutons et une **icône de licorne** pour a
   4. Il n’est **pas** nécessaire d’activer le module dans votre monde !  
 
 💡 **Astuce :** Utiliser le manifeste est recommandé pour les mises à jour automatiques.
+
+---
+
+## 🇧🇷 Português  
+### Por que preciso selecionar um idioma para este módulo?  
+Este módulo utiliza um truque minimalista de **"coreTranslation"** para carregar seu CSS personalizado na tela de login **antes** de entrar em qualquer mundo no Foundry VTT.  
+O Foundry só aplica os estilos do módulo na tela de login se o módulo for de idioma/tradução (ou se coreTranslation for verdadeiro com pelo menos uma língua declarada).  
+
+## 🇺🇸 English  
+### Why do I need to select a language for this module?  
+This module uses a minimalist **"coreTranslation"** trick to load its custom CSS on the login screen **before** entering any world in Foundry VTT.  
+Foundry only applies the module’s styles to the login screen if the module is language/translation based (or if coreTranslation is true with at least one language declared).  
+
+## 🇫🇷 Français  
+### Pourquoi dois-je sélectionner une langue pour ce module ?  
+Ce module utilise une astuce minimaliste **"coreTranslation"** pour charger son CSS personnalisé sur l’écran de connexion **avant** d’entrer dans un monde Foundry VTT.  
+Foundry n’applique les styles du module sur l’écran de connexion que si le module est basé sur une langue/traduction (ou si coreTranslation est vrai avec au moins une langue déclarée).
 
 ---
 
