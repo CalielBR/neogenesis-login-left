@@ -13,19 +13,15 @@
     {
       "lang": "la",
       "name": "Latim",
-      "path": "lang/la.json",
-      "flags": {}
+      "path": "lang/la.json"
     }
   ],
   "styles": [
-    {
-      "src": "styles/pipboy-login.css"
-    }
+    "styles/pipboy-login.css"
   ],
   "authors": [
     {
-      "name": "Mike CalielFR Barbosa",
-      "flags": {}
+      "name": "Mike CalielFR Barbosa"
     }
   ],
   "url": "https://github.com/CalielBR/neogenesis-login-left",
@@ -36,9 +32,7 @@
     {
       "type": "setup",
       "url": "modules/neogenesis-login-left/assets/neo_login_left.webp",
-      "loop": false,
-      "flags": {}
+      "loop": false
     }
-  ],
-  "flags": {}
+  ]
 }
