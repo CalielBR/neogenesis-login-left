@@ -5,25 +5,28 @@
 /* --- Developed and maintained by Mike CalielFR#7504 Barbosa --- */
 /* ----------------------------------------- */
 
-/* Configurações base */
+/* Base settings */
 body.auth,
 #watermark {
     --login-world-logo: url(Place the image path);
     --login-footer-logo: url(Place the image path);
     --login-footer-logo-height: 25px;
 
-    /* Cores Pip-Boy */
+    /* Pip-Boy colors */
     --login-button-color: #00ff00;
     --login-button-color-hover: #66ff66;
 
     --login-show-text-title: none;
 
-    background-color: #021a01 !important;
+    /* This changes the background color of the Foundry setup screen */
+    background-color: #000 !important;
     font-family: "Courier New", Courier, monospace;
-    color: #00ff00;
+    /* This changes the font color on the Foundry setup screen */
+    color: #000;
+
 }
 
-/* Logotipo do Mundo */
+/* World logo */
 body.auth #main-header {
     background: var(--login-world-logo);
     background-repeat: no-repeat;
@@ -35,18 +38,18 @@ body.auth #main-header {
     color: #00ff00;
 }
 
-/* Ocultar descrição do mundo e informações da sessão */
+/* Hide world description and session info */
 #join-game-world,
 #join-game-details {
     display: none;
 }
 
-/* Remover a segunda coluna no formulário de entrada */
+/* Remove second column from login form */
 body.join #join-game {
     grid-template-columns: 1fr !important;
 }
 
-/* Visibilidade do título do mundo */
+/* World title visibility */
 body.auth #main-header h1 {
     display: block;
     flex: auto;
@@ -56,12 +59,12 @@ body.auth #main-header h1 {
     filter: drop-shadow(0 0 4px black);
 }
 
-/* Ocultar divisores do formulário */
+/* Hide form dividers */
 #join-game .divider {
     display: none;
 }
 
-/* Alinhar o formulário de login à esquerda e ajustar o posicionamento vertical */
+/* Align login form to the left and adjust vertical position */
 #join-game {
     width: 400px !important;
     position: absolute;
@@ -78,7 +81,7 @@ body.auth #main-header h1 {
         inset 0 0 25px #00ff00;
 }
 
-/* Estilizar entradas e seletores */
+/* Style inputs and selectors */
 #join-game input,
 #join-game select,
 #join-game button {
@@ -96,7 +99,7 @@ body.auth #main-header h1 {
     letter-spacing: 1px;
 }
 
-/* Focus inputs e selects */
+/* Focus inputs and selects */
 #join-game input:focus,
 #join-game select:focus {
     outline: none;
@@ -107,7 +110,7 @@ body.auth #main-header h1 {
     color: #ccffcc;
 }
 
-/* Estilizar botões */
+/* Style buttons */
 #join-game button {
     background: var(--login-button-color);
     border: none;
@@ -124,14 +127,14 @@ body.auth #main-header h1 {
     margin-bottom: 0px !important;
 }
 
-/* Evita quebra de linha e define largura mínima para o botão */
+/* Prevent text wrap and define minimum width for login button */
 #join-game button[name="join"] {
     white-space: nowrap !important;
     min-width: 80px;
     overflow: visible !important;
 }
 
-/* Remove texto, deixa só a imagem do unicórnio */
+/* Replace text with unicorn emoji */
 #join-game button[name="join"]:after {
     content: "🦄";
     font-size: 1.5em;
@@ -140,23 +143,23 @@ body.auth #main-header h1 {
     white-space: nowrap !important;
 }
 
-/* Hover com rosa Fallout e texto claro elegante */
+/* Hover effect with Fallout-style pink and elegant light text */
 #join-game button:hover {
     background: #c71585;
     /* MediumVioletRed */
     color: #f8f4ff;
-    /* Off-white lavanda claro */
+    /* Soft lavender white */
     box-shadow:
         0 0 20px #d96dd1,
         inset 0 0 15px #f7a8f7;
 }
 
-/* Alterar ícone do botão de login */
+/* Remove login button check icon */
 #join-game button[name="join"] i.fas.fa-check {
     display: none;
 }
 
-/* Adicionar padding ao ícone do botão de retorno ao setup */
+/* Add padding to lock icon on return-to-setup button */
 #join-game-setup .form-footer .fas.fa-lock {
     padding-right: 5px;
 }
